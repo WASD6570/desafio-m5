@@ -1,0 +1,1 @@
+{"mappings":"AAAA,WACE,yBAA0B,CAC1B,kDACF,CACA,KACE,qBACF","sources":["src/index.css"],"sourcesContent":["@font-face {\r\n  font-family: \"sunset-club\";\r\n  src: url(\"./font/sunset-club.ttf\");\r\n}\r\nbody {\r\n  background-color: #002;\r\n}\r\n"],"names":[],"version":3,"file":"index.a6b88b51.css.map"}
