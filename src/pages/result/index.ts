@@ -19,7 +19,7 @@ export function initResultPage(containerEl: Element) {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    font-size: 6vw;
+    font-size: 4vw;
   }
   @media (max-width: 768px) {
     .empate, .ganaste, .perdiste{
@@ -64,7 +64,7 @@ export function initResultPage(containerEl: Element) {
 
   .score-container {
       width: 50vw;
-      max-width: 300px;
+      max-width: 350px;
       height: 280px;
       background-color: transparent;
       display: flex;

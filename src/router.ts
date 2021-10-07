@@ -54,7 +54,7 @@ export function goTo(container: Element, path) {
 }
 
 export function initRouter(container: Element) {
-  if (location.host.includes("github.io") || "/") {
+  if (location.host.includes("github.io")) {
     goTo(container, "/desafio-m5/home");
   } else {
     routeHandler(location.pathname, container);
