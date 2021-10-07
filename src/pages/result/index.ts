@@ -29,7 +29,7 @@ export function initResultPage(containerEl: Element) {
   .empate > h1 {
     transform: rotate(-25deg);
     margin-top: 10px;
-    margin-bottom: 150px;
+    margin-bottom: 120px;
     font-family: "sunset-club";
     color: #fff;
     animation: flicker 8s infinite alternate;
@@ -87,7 +87,7 @@ export function initResultPage(containerEl: Element) {
     font-family: 'sunset-club';
     margin: 20px;
     color: #fff;
-    font-size: 2.5rem;
+    font-size: 2rem;
     animation: flicker 8s infinite alternate;
     text-shadow:
     0 0 2px  #00FFFF,
