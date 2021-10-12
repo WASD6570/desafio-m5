@@ -60,3 +60,9 @@ export function initRouter(container: Element) {
     routeHandler(location.pathname, container);
   }
 }
+
+// hago que la app cargue desde el inicio si hacen refresh o ponen una url invalida
+window.addEventListener("load", () => {
+  const test = document.querySelector(".root");
+  goTo(test, "/desafio-m5/home");
+});

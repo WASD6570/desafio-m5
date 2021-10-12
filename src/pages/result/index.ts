@@ -19,17 +19,17 @@ export function initResultPage(containerEl: Element) {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    font-size: 4vw;
+    font-size: 4rem;
+    margin-bottom: 40px;
   }
-  @media (max-width: 768px) {
+  @media (max-width: 767px) {
     .empate, .ganaste, .perdiste{
-        font-size: 8vw;
+        font-size: 2rem;
       }
   }
   .empate > h1 {
     transform: rotate(-25deg);
     margin-top: 10px;
-    margin-bottom: 120px;
     font-family: "sunset-club";
     color: #fff;
     animation: flicker 8s infinite alternate;
@@ -41,7 +41,6 @@ export function initResultPage(containerEl: Element) {
   .ganaste > h1 {
     transform: rotate(-25deg);
     margin-top: 10px;
-    margin-bottom: 150px;
     font-family: "sunset-club";
     color: #fff;
     animation: flicker 8s infinite alternate;
@@ -53,7 +52,6 @@ export function initResultPage(containerEl: Element) {
   .perdiste > h1 {
     transform: rotate(-25deg);
     margin-top: 10px;
-    margin-bottom: 150px;
     font-family: "sunset-club";
     color: #fff;
     animation: flicker 8s infinite alternate;
@@ -64,7 +62,7 @@ export function initResultPage(containerEl: Element) {
 
   .score-container {
       width: 50vw;
-      max-width: 350px;
+      width: 450px;
       height: 280px;
       background-color: transparent;
       display: flex;
@@ -79,6 +77,11 @@ export function initResultPage(containerEl: Element) {
       0 0 0.8rem #00FFFF,
       0 0 2.8rem #00FFFF,
       inset 0 0 1.3rem #00FFFF;
+  }
+  @media(max-width: 450px){
+    .score-container{
+      max-width: 350px;
+    }
   }
   .score-container > h3{
     align-self: center;
@@ -102,7 +105,7 @@ export function initResultPage(containerEl: Element) {
   .score-container > h4{
       margin-right: 5%;
   }
-  
+
   @keyframes flicker {
      
    0%, 18%, 22%, 25%, 53%, 57%, 100% 

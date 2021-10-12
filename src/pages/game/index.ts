@@ -10,6 +10,7 @@ export function initGamePage(containerEl: Element) {
       display: flex;
       flex-direction: column;
       align-items: center;
+      margin-top: 30px;
     }
     .counter-off{
       color: rgba(255, 255, 255, 0.541);
